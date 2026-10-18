@@ -6,6 +6,14 @@ yarn-error.log*
 Thumbs.db
 *.log
 
+# Secrets
+.npmrc
+.env
+.env.*
+
+# Local agent worktrees
+.kilo/worktrees/
+
 # Private maintainer tools
 scripts/
 SHIP_GUIDE.md
