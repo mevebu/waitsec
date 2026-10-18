@@ -1,0 +1,48 @@
+{
+  "name": "waitsec",
+  "version": "1.3.1",
+  "description": "Practical guardrails for AI coding agents. Hold on, think first, code less.",
+  "main": "rules/waitsec.md",
+  "bin": {
+    "waitsec": "bin/cli.mjs"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.mjs",
+    "ship": "node ./scripts/ship.js"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "guardrails",
+    "anti-slop",
+    "cursor",
+    "cline",
+    "kilo-code",
+    "antigravity",
+    "claude-code",
+    "developer-tools"
+  ],
+  "author": "fastroware",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mevebu/waitsec.git"
+  },
+  "homepage": "https://github.com/mevebu/waitsec#readme",
+  "bugs": {
+    "url": "https://github.com/mevebu/waitsec/issues"
+  },
+  "files": [
+    "bin/",
+    "rules/",
+    "skills/",
+    ".cursor-plugin/",
+    "plugin.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@clack/prompts": "^1.8.0",
+    "picocolors": "^1.1.1"
+  }
+}

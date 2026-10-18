@@ -1,0 +1,16 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+*.log
+
+# Private maintainer tools
+scripts/
+SHIP_GUIDE.md
+PROFILE_README.md
+GEMINI.md
+list-skills.md
+how-to-make-skill.md
+z-update-info.md
